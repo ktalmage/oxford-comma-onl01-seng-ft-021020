@@ -1,10 +1,5 @@
 def oxford_comma(array)
-  if array.count {|i| i>3}
-    array.join(",">>"and")
-  else
-    array.join(",")
-  end
+  array.count {|i| i>3}
 end
-
-array = ["cool","awesome","neat"]
+array = [1,2,3,4,5,6]
 puts oxford_comma(array)
