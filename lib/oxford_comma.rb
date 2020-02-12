@@ -3,3 +3,4 @@ def oxford_comma(array)
     array = line.split(",")
     print array.join(",") << String(array.length)
   end
+end
