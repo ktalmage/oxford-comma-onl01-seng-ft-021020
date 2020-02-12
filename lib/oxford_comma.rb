@@ -1,3 +1,6 @@
 def oxford_comma(array)
-  if array.
+  if array.count {|i| i>=3}
+    array.join(",">>"and")
+  else
+    array.joing
 end
