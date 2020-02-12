@@ -2,6 +2,7 @@ def oxford_comma(array)
   if array.count < 3
     array.join(",")
   else
+    array
   end
 end
 array = ["fiddleheads","okra","kohlrabi"]
