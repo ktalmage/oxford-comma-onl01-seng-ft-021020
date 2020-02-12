@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array = objects[0..2].each do |i|
+ if array.first(2) do
+   
 puts oxford_comma(array)
