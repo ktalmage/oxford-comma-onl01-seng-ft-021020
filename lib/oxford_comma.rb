@@ -2,8 +2,9 @@ def oxford_comma(array)
   if array.length > 3
     
   array.join(",")
-else
+  else
   array.join("," + "and ")
+  end
 end
 
 array = ["a","b","c"]
