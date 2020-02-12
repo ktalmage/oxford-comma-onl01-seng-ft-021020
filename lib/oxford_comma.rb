@@ -7,5 +7,5 @@ def oxford_comma(array)
   end
 end
 
-array = ["a","b","c"]
+array = ["a","b"]
 puts oxford_comma(array)
