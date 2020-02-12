@@ -1,9 +1,4 @@
 def oxford_comma(array)
-  if array.count < 3
-    array.join(",")
-  else
-    array
-  end
-end
+  array.each_index {|i|[]
 array = ["fiddleheads","okra","kohlrabi"]
 puts oxford_comma(array)
