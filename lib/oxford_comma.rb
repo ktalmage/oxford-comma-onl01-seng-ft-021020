@@ -1,11 +1,3 @@
 def oxford_comma(array)
-  if array.length > 3 
-    
-  array.join(",")
-  else
-  array.join("," + "and ")
-  end
+  array.join
 end
-
-array = ["a","b"]
-puts oxford_comma(array)
